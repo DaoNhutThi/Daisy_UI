@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link
+            href="https://cdn.jsdelivr.net/npm/daisyui@4.4.20/dist/full.min.css"
+            rel="stylesheet" type="text/css" />
+        <script src="https://cdn.tailwindcss.com"></script>
+        <title>Profile</title>
+    </head>
+    <body>
+        <section
+            class="bg-gray-100 min-h-screen flex items-center justify-center">
+            <!-- login container -->
+            <div class="bg-cyan-100 flex rounded-2xl show-lg max-vw-3xl p-5">
+                <!-- form -->
+                <div class="w-1/2">
+                    <h2 class="font-bold ">Profile</h2>
+                    <form action="" class="flex flex-col">
+                        <input type="text" name="fullname" class="w-21 h-10 rounded-btn mb-4 mt-5" placeholder="Full Name">
+                        <input type="date" name="dateofbirth" class="w-21 h-10 rounded-btn mb-4">
+                        <input type="text" name="email" class="w-21 h-10 rounded-btn mb-4" placeholder="Email">
+                        <input type="text" name="password" class="w-21 h-10 rounded-btn mb-4" placeholder="Password">
+                        <input type="text" name="confirm password" class="w-21 h-10 rounded-btn mb-4" placeholder="Confirm Password">
+                        <button class="mt-5 glass btn btn-base-100">Save</button>
+                        <button class="mt-5 glass btn btn-base-100">Cancel</button>
+                    </form>
+                </div>
+                <!-- img -->
+                <div class="w-1/2 p-5">
+                    <img class="rounded-2xl" src="/img/OIP.jpg" alt="login">
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
